@@ -1,7 +1,7 @@
 url: $CORE_API
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2022-06-13T18:09:38.197Z
+status: up
+code: 200
+responseTime: 46
+lastUpdated: 2022-06-13T18:18:14.908Z
 startTime: Mon Jun 13 2022 17:34:10 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
