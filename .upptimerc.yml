@@ -133,7 +133,7 @@
       name: ""
       introTitle: "**NetaMx** Estado de Servicios Dev"
       introMessage: "Esta es la pagina de estado de servicios en tiempo real para **NetaMx** "
-      theme: "night"
+      theme: "light"
       navbar:
         - title: "Dev Status"
           href: "/"
@@ -143,7 +143,7 @@
           href: "https://qa.status.ops.neta.mx/"
       metaTags:
         - name: "color-scheme"
-          content: "dark light"
+          content: "light"
         - name: "robots"
           content: "noindex"
     
