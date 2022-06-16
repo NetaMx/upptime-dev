@@ -1,162 +1,207 @@
 ---
-    owner: "NetaMx"
-    repo: "upptime-dev"
-    
-    sites:
-      - name: "NetaMx Site"
-        url: $SITE_NETA
-        maxResponseTime: 2000
-        expectedStatusCodes:
-          - 200
-      - name: "Mi Tienda"
-        url: $SECRET_SITE_MITIENDA
-        maxResponseTime: 2000
-        expectedStatusCodes:
-          - 200
-          - 403
-      - name: "Rutas Neta"
-        url: $SITE_ROUTES
-        maxResponseTime: 2000
-        expectedStatusCodes:
-          - 200
-          - 403
-      - name: "Admin ops"
-        url: $ADMIN_OPS
-        maxResponseTime: 2000
-        expectedStatusCodes:
-          - 200
-          - 403
-      - name: "neta argo"
-        url: $NETA_ARGO
-        __dangerous__insecure: true
-        maxResponseTime: 2000
-        expectedStatusCodes:
-          - 200
-          - 403
-      - name: "ops warehouse"
-        url: $OPS_WAREHOUSE
-        maxResponseTime: 2000
-        expectedStatusCodes:
-          - 200
-          - 403
-      - name: "fraud detection"
-        url: $FRAUD_DETECTION
-        maxResponseTime: 2000
-        expectedStatusCodes:
-          - 200
-          - 403
-      - name: "category"
-        url: $CATEGORY
-        maxResponseTime: 2000
-        expectedStatusCodes:
-          - 200
-          - 403
-      - name: "notification"
-        url: $NOTIFICATION
-        maxResponseTime: 2000
-        expectedStatusCodes:
-          - 200
-          - 403
-      - name: "core api"
-        url: $CORE_API
-        maxResponseTime: 2000
-        expectedStatusCodes:
-          - 200
-          - 403
-      - name: "ordenes"
-        url: $ORDERS
-        maxResponseTime: 2000
-        expectedStatusCodes:
-          - 200
-          - 403
-      - name: "discount"
-        url: $DISCOUNT
-        maxResponseTime: 2000
-        expectedStatusCodes:
-          - 200
-          - 403
-      - name: "popup"
-        url: $POPUP
-        maxResponseTime: 2000
-        expectedStatusCodes:
-          - 200
-          - 403
-      - name: "product"
-        url: $PRODUCT
-        maxResponseTime: 2000
-        expectedStatusCodes:
-          - 200
-          - 403
-      - name: "promo"
-        url: $PROMO
-        maxResponseTime: 2000
-        expectedStatusCodes:
-          - 200
-          - 403
-      - name: "security"
-        url: $SECURITY
-        maxResponseTime: 2000
-        expectedStatusCodes:
-          - 200
-          - 403
-      - name: "payments"
-        url: $PAYMENTS
-        maxResponseTime: 2000
-        expectedStatusCodes:
-          - 200
-          - 403
-      - name: "challenge"
-        url: $CHALLENGE
-        maxResponseTime: 2000
-        expectedStatusCodes:
-          - 200
-          - 403
-      - name: "rengoku"
-        url: $RENGOKU
-        maxResponseTime: 2000
-        expectedStatusCodes:
-          - 200
-          - 403
-      - name: "ops store"
-        url: $OPS_STORE
-        maxResponseTime: 2000
-        expectedStatusCodes:
-          - 200
-          - 403
-    
-    assignees:
-      - "adrianhorizon"
-    
-    status-website:
-      cname: "dev.status.ops.neta.mx"
-      logoUrl: "https://raw.githubusercontent.com/NetaMx/upptime-dev/master/assets/Neta.png"
-      favicon: "https://raw.githubusercontent.com/NetaMx/upptime-dev/master/assets/Neta.png"
-      name: ""
-      introTitle: "**NetaMx** Estado de Servicios Dev"
-      introMessage: "Esta es la pagina de estado de servicios en tiempo real para **NetaMx** "
-      theme: "light"
-      navbar:
-        - title: "Dev Status"
-          href: "/"
-        - title: "Service Status"
-          href: "https://status.ops.neta.mx/"
-        - title: "QA Service Status"
-          href: "https://qa.status.ops.neta.mx/"
-        - title: "Stage Service Status"
-          href: "https://stage.status.ops.neta.mx/"
-      metaTags:
-        - name: "color-scheme"
-          content: "light"
-        - name: "robots"
-          content: "noindex"
-    
-    workflowSchedule:
-      graphs: "0 0 * * *"
-      responseTime: "0 23 * * *"
-      staticSite: "0 1 * * *"
-      summary: "0 0 * * *"
-      updateTemplate: "0 0 * * *"
-      updates: "0 3 * * *"
-      uptime: "*/5 * * * *"
-    
-    user-agent: "adrianhorizon"
+owner: "NetaMx"
+repo: "upptime-dev"
+
+sites:
+  - name: "NetaMx Site"
+    url: $SITE_NETA
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+  - name: "Mi Tienda"
+    url: $SECRET_SITE_MITIENDA
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "Rutas Neta"
+    url: $SITE_ROUTES
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "Admin ops"
+    url: $ADMIN_OPS
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "neta argo"
+    url: $NETA_ARGO
+    __dangerous__insecure: true
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "ops warehouse"
+    url: $OPS_WAREHOUSE
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "fraud detection"
+    url: $FRAUD_DETECTION
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "category"
+    url: $CATEGORY
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "notification"
+    url: $NOTIFICATION
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "core api"
+    url: $CORE_API
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "ordenes"
+    url: $ORDERS
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "discount"
+    url: $DISCOUNT
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "popup"
+    url: $POPUP
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "product"
+    url: $PRODUCT
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "promo"
+    url: $PROMO
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "security"
+    url: $SECURITY
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "payments"
+    url: $PAYMENTS
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "challenge"
+    url: $CHALLENGE
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "rengoku"
+    url: $RENGOKU
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "ops store"
+    url: $OPS_STORE
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "ops order"
+    url: $OPS_ORDER
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "ops invoice"
+    url: $OPS_INVOICE
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "ops invoice v0"
+    url: $OPS_INVOICE_V0
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "Store"
+    url: $STORE
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "pdf generator"
+    url: $PDF_GENERATOR
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "ops delivery"
+    url: $OPS_DELIVERY
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+  - name: "ops security"
+    url: $OPS_SECURITY
+    maxResponseTime: 2000
+    expectedStatusCodes:
+      - 200
+      - 403
+
+assignees:
+  - "adrianhorizon"
+  - "fedeam"
+  - "PontiLeo"
+  - "orlando-barriel"
+
+status-website:
+  cname: "dev.status.ops.neta.mx"
+  logoUrl: "https://raw.githubusercontent.com/NetaMx/upptime-dev/master/assets/Neta.png"
+  favicon: "https://raw.githubusercontent.com/NetaMx/upptime-dev/master/assets/Neta.png"
+  name: ""
+  introTitle: "**NetaMx** Estado de Servicios Dev"
+  introMessage: "Esta es la pagina de estado de servicios en tiempo real para **NetaMx** "
+  theme: "light"
+  navbar:
+    - title: "Dev Status"
+      href: "/"
+    - title: "Service Status"
+      href: "https://status.ops.neta.mx/"
+    - title: "Qa Service Status"
+      href: "https://qs.status.ops.neta.mx/"
+    - title: "Stage Service Status"
+      href: "https://stage.status.ops.neta.mx/"
+  metaTags:
+    - name: "color-scheme"
+      content: "light"
+    - name: "robots"
+      content: "noindex"
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
+
+user-agent: "adrianhorizon"
