@@ -1,7 +1,7 @@
 url: $BACKOFFICE
-status: degraded
+status: up
 code: 200
-responseTime: 3284
-lastUpdated: 2022-07-13T18:32:23.982Z
+responseTime: 1032
+lastUpdated: 2022-07-15T05:54:54.478Z
 startTime: Thu Jun 16 2022 18:52:07 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
